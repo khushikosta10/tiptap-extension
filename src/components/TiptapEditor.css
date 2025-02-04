@@ -1,0 +1,60 @@
+/* Editor Container */
+.editor-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Editor Title */
+  .editor-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Font Selector Container */
+  .font-selector-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Font Selector Label */
+  .font-selector-label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Font Selector Dropdown */
+  .font-selector {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60%;
+    cursor: pointer;
+  }
+  
+  /* Editor Area Styling */
+  .editor-area {
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 200px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Text Area Focus */
+  .editor-area:focus-within {
+    border-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 86, 179, 0.2);
+  }
+  
